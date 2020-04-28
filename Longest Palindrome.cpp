@@ -9,10 +9,6 @@ ts = s;
 te = e-1;
 
 for (int i = 0; i < mid ; i++) {
-  
-cout<<" ts :"<<ts<< "	te :"<< te<<endl;
-cout<<" str[s] :"<<str[s]<< "	str[e] :"<< str[e]<<endl;
-
     if (str[s] != str[e]) {
         ts = -1;
         te = -1;
